@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(176, 176, 255);
+    color: black;
+}
+
+#unico{
+    color:rgb(149, 149, 255);
+    font-weight: lighter;
+    background-color:rgb(0, 0, 116);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.formulario{
+    font-style: italic;
+    color:rgb(255, 145, 0);
+    background-color: rgb(65, 37, 0);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div{
+    border: 3px solid black;
+    padding: 1px;
+}
+
+.tabla
+{
+    color: aqua;
+    font-weight: bold;
+    background-color: rgb(13, 61, 61);
+}
+
+td{
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.subtitulo{
+    font-style: italic;
+    color:rgb(0, 255, 0);
+    background-color: rgb(0, 70, 0);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ol{
+    color: white;
+    text-anchor:end;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(255, 0, 0);
+    background-color: rgb(82, 0, 0);
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
